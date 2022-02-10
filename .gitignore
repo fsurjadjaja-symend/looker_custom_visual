@@ -6,7 +6,8 @@ node_modules
 yarn-error.log
 src
 dist/archived
-yarn.lock
-package-lock.json
 test
 docs
+
+yarn.lock
+package-lock.json
