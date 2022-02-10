@@ -1,3 +1,6 @@
+*
+!dist/cv_01.js
+
 # .idea
 # demo/build
 # node_modules
@@ -11,7 +14,3 @@
 
 # yarn.lock
 # package-lock.json
-
-
-*
-!dist/cv_01.js
