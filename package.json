@@ -1,0 +1,52 @@
+{
+  "name": "looker-visualization-api-examples",
+  "version": "2.0.20",
+  "license": "MIT",
+  "description": "A selection of sample visualizations for use as Looker visualizations",
+  "main": "demo/index.html",
+  "directories": {
+    "lib": "lib",
+    "test": "tests"
+  },
+  "scripts": {
+    "build": "webpack --config webpack.config.js",
+    "watch": "webpack --config webpack.config.js --watch --progress",
+    "lint": "tslint --project tsconfig.json --format stylish 'src/**/*.ts'",
+    "lint-fix": "tslint --fix --project tsconfig.json  --format stylish 'src/**/*.ts'",
+    "test": "jest"
+  },
+  "author": "",
+  "private": true,
+  "devDependencies": {
+    "@types/jquery": "^3.5.13",
+    "css-loader": "^0.28.11",
+    "d3": "^7.3.0",
+    "d3-tip": "^0.9.1",
+    "jquery": "^3.3.1",
+    "jsdom": "^11.11.0",
+    "pivottable": "2.20",
+    "to-string-loader": "^1.2.0",
+    "ts-loader": "^6.2.1",
+    "tslint": "^6.1.3",
+    "tslint-config-standard": "^9.0.0",
+    "uglifyjs-webpack-plugin": "^1.1.2",
+    "webpack": "^4.41.2",
+    "webpack-cli": "^4.9.2",
+    "webpack-dev-server": "^4.7.4"
+  },
+  "dependencies": {
+    "@babel/core": "^7.17.2",
+    "@babel/preset-env": "^7.16.11",
+    "@babel/preset-react": "^7.16.7",
+    "@types/d3": "^5.0.0",
+    "@types/d3-sankey": "^0.11.2",
+    "@types/d3-tip": "^3.5.5",
+    "babel-loader": "^8.2.3",
+    "jest": "^27.5.1",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-responsive-carousel": "^3.2.22",
+    "ssf": "^0.11.2",
+    "typescript": "^3.9.10"
+  }
+}
