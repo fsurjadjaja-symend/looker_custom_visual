@@ -1,13 +1,17 @@
-.idea
-demo/build
-node_modules
-.DS_Store
-.vscode
-yarn-error.log
-src
-dist/archived
-test
-docs
+# .idea
+# demo/build
+# node_modules
+# .DS_Store
+# .vscode
+# yarn-error.log
+# src
+# dist/archived
+# test
+# docs
 
-yarn.lock
-package-lock.json
+# yarn.lock
+# package-lock.json
+
+
+*
+!dist/cv_01.js
